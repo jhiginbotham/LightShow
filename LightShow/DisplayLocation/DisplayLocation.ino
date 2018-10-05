@@ -1,8 +1,5 @@
 #include <SPI.h>
-//#include <EEPROM.h>
 #include "RF24.h"
-//#include "RF24Network.h"
-//#include "RF24Mesh.h"
 #include "LedStrip.h"
 #include "PaletteDefinitions.h"
 
@@ -13,8 +10,10 @@ Created: 9/14/2018 7:37:05 AM
 Author: jason.higinbotham
 */
 
-//#define NODE_ID 5
+
+//CHANGE ME TO MATCH THE LOCATION ADDRESS
 #define NODE_ID 0xE8E8F0F0B5LL
+
 #define RADIO_CHANNEL 113
 
 #define LED_PIN_CIRCLE 3
@@ -31,10 +30,6 @@ LedStrip verticalStrip(NUM_LEDS_VERTICAL, LED_PIN_VERTICAL);
 
 RF24 radio(9, 10);
 
-
-//RF24Network network(radio);
-//RF24Mesh mesh(radio, network);
-
 const uint64_t NODE_1 = 0xE8E8F0F0F1LL;
 const uint64_t NODE_2 = 0xE8E8F0F0E2LL;
 const uint64_t NODE_3 = 0xE8E8F0F0D3LL;
@@ -43,7 +38,6 @@ const uint64_t NODE_5 = 0xE8E8F0F0B5LL;
 const uint64_t NODE_6 = 0xE8E8F0F0A6LL;
 
 byte currentPatternId = 1;
-//uint32_t sleepTimer;
 
 void setup()
 {
@@ -65,34 +59,10 @@ void setup()
 
 	radio.printDetails();
 
-	//mesh.setNodeID(NODE_ID);
-	//mesh.begin(RADIO_CHANNEL, RF24_250KBPS);
-	//radio.setPALevel(RF24_PA_LOW);
 }
 
 void loop()
 {
-	//mesh.update();
-	//
-	//if (millis() - sleepTimer >= 1000)
-	//{
-	//sleepTimer = millis();
-	//
-	//if (!mesh.checkConnection())
-	//{
-	//mesh.renewAddress();
-	//}
-	//}
-	//
-	//while (network.available())
-	//{
-	//RF24NetworkHeader header;
-	//byte patternId;
-	//network.read(header, &patternId, sizeof(patternId));
-	//
-	//currentPatternId = patternId;
-	//}
-	//
 	RXData();
 	RunCurrentPattern();
 }

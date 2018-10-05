@@ -1,8 +1,5 @@
 #include <SPI.h>
-//#include <EEPROM.h>
 #include "RF24.h"
-//#include "RF24Network.h"
-//#include "RF24Mesh.h"
 #include "LedStrip.h"
 #include "PaletteDefinitions.h"
 
@@ -13,8 +10,8 @@
 * Author: Jason.Higinbotham
 */
 
-//#define NODE_ID 6
 #define NODE_ID 0xE8E8F0F0A6LL
+
 #define RADIO_CHANNEL 113
 
 #define LED_PIN_TOP 5
@@ -35,12 +32,7 @@ LedStrip bottomStrip(NUM_LEDS_BOTTOM, LED_PIN_BOTTOM);
 
 RF24 radio(9, 10);
 
-
-//RF24Network network(radio);
-//RF24Mesh mesh(radio, network);
-
 byte currentPatternId = 3;
-//uint32_t sleepTimer;
 
 void setup()
 {
@@ -61,33 +53,10 @@ void setup()
 	radio.startListening();
 
 	radio.printDetails();
-
-	//mesh.setNodeID(NODE_ID);
-	//mesh.begin(RADIO_CHANNEL, RF24_1MBPS);
 }
 
 void loop()
 {
-	//mesh.update();
-	//
-	//if (millis() - sleepTimer >= 1000)
-	//{
-	//sleepTimer = millis();
-	//
-	//if (!mesh.checkConnection())
-	//{
-	//mesh.renewAddress();
-	//}
-	//}
-	//
-	//while (network.available())
-	//{
-	//RF24NetworkHeader header;
-	//byte patternId;
-	//network.read(header, &patternId, sizeof(patternId));
-	//currentPatternId = patternId;
-	//}
-
 	RXData();
 	RunCurrentPattern();
 }
@@ -115,12 +84,10 @@ void RunCurrentPattern()
 }
 
 void RunTopScene(){
-	//topStrip.ShowPalette(shyviolet_gp);
 	TopScene();
 }
 
 void RunBottomScene(){
-	//bottomStrip.RainbowWithGlitter();
 	BottomScene();
 }
 

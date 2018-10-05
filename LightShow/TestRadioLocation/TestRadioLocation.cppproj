@@ -69,14 +69,9 @@
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
       <Value>../../../TestRadioLocation</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Network</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Mesh</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/EEPROM/src</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
@@ -115,9 +110,8 @@
       <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Network</Value>
       <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Mesh</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/EEPROM/src</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries</Value>
+      <Value>//fps.availity.net/Users/Jason.Higinbotham/My Documents/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
@@ -196,9 +190,8 @@
       <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Network</Value>
       <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Mesh</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/EEPROM/src</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries</Value>
+      <Value>//fps.availity.net/Users/Jason.Higinbotham/My Documents/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
@@ -237,9 +230,8 @@
       <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Network</Value>
       <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Mesh</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/EEPROM/src</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries</Value>
+      <Value>//fps.availity.net/Users/Jason.Higinbotham/My Documents/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>

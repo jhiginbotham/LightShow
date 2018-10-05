@@ -13,8 +13,6 @@
 #include "RF24Mesh.h"
 #include <SPI.h>
 #include <EEPROM.h>
-//#include <printf.h>
-
 
 /**** Configure the nrf24l01 CE and CS pins ****/
 RF24 radio(9,10);

@@ -134,10 +134,8 @@
   <avrgcccpp.compiler.miscellaneous.OtherFlags>-include=arduino.h</avrgcccpp.compiler.miscellaneous.OtherFlags>
   <avrgcccpp.linker.libraries.Libraries>
     <ListValues>
-      <Value>RF24.h</Value>
-      <Value>RF24Mesh.h</Value>
-      <Value>RF24Network.h</Value>
-      <Value>FastLED.h</Value>
+      <Value>RF24</Value>
+      <Value>FastLED</Value>
     </ListValues>
   </avrgcccpp.linker.libraries.Libraries>
   <avrgcccpp.linker.libraries.LibrarySearchPaths>
@@ -146,10 +144,6 @@
       <Value>C:\Program Files (x86)\Arduino\libraries\RF24Network</Value>
       <Value>C:\Program Files (x86)\Arduino\libraries\RF24</Value>
       <Value>C:\Program Files (x86)\Arduino\libraries\RF24Mesh</Value>
-      <Value>C:\Users\jason.higinbotham\Documents\Atmel Studio\7.0\libraries\RF24</Value>
-      <Value>C:\Users\jason.higinbotham\Documents\Atmel Studio\7.0\libraries\RF24Mesh</Value>
-      <Value>C:\Users\jason.higinbotham\Documents\Atmel Studio\7.0\libraries\RF24Network</Value>
-      <Value>C:\Users\jason.higinbotham\Documents\Atmel Studio\7.0\libraries\FastLED</Value>
     </ListValues>
   </avrgcccpp.linker.libraries.LibrarySearchPaths>
   <avrgcccpp.assembler.general.IncludePaths>
@@ -258,10 +252,8 @@
   <avrgcccpp.compiler.miscellaneous.OtherFlags>-include=arduino.h</avrgcccpp.compiler.miscellaneous.OtherFlags>
   <avrgcccpp.linker.libraries.Libraries>
     <ListValues>
-      <Value>RF24.h</Value>
-      <Value>RF24Mesh.h</Value>
-      <Value>RF24Network.h</Value>
-      <Value>FastLED.h</Value>
+      <Value>RF24</Value>
+      <Value>FastLED</Value>
     </ListValues>
   </avrgcccpp.linker.libraries.Libraries>
   <avrgcccpp.linker.libraries.LibrarySearchPaths>
@@ -270,10 +262,6 @@
       <Value>C:\Program Files (x86)\Arduino\libraries\RF24Network</Value>
       <Value>C:\Program Files (x86)\Arduino\libraries\RF24</Value>
       <Value>C:\Program Files (x86)\Arduino\libraries\RF24Mesh</Value>
-      <Value>C:\Users\jason.higinbotham\Documents\Atmel Studio\7.0\libraries\RF24</Value>
-      <Value>C:\Users\jason.higinbotham\Documents\Atmel Studio\7.0\libraries\RF24Mesh</Value>
-      <Value>C:\Users\jason.higinbotham\Documents\Atmel Studio\7.0\libraries\RF24Network</Value>
-      <Value>C:\Users\jason.higinbotham\Documents\Atmel Studio\7.0\libraries\FastLED</Value>
     </ListValues>
   </avrgcccpp.linker.libraries.LibrarySearchPaths>
   <avrgcccpp.assembler.general.IncludePaths>

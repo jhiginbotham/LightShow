@@ -16,15 +16,7 @@
 #define ROWS 4
 #define COLS 4
 
-//#define NODE_MASTER 0
 #define RADIO_CHANNEL 113
-
-//#define NODE_1 1
-//#define NODE_2 2
-//#define NODE_3 3
-//#define NODE_4 4
-//#define NODE_5 5
-//#define NODE_6 6
 
 char keys[ROWS][COLS] = {
 	{
@@ -48,11 +40,6 @@ Keypad keypad = Keypad(makeKeymap(keys), rowPins, colPins, ROWS, COLS);
 
 RF24 radio(9, 10);
 
-
-//RF24Network network(radio);
-//RF24Mesh mesh(radio, network);
-
-
 const uint64_t NODE_1 = 0xE8E8F0F0F1LL;
 const uint64_t NODE_2 = 0xE8E8F0F0E2LL;
 const uint64_t NODE_3 = 0xE8E8F0F0D3LL;
@@ -63,8 +50,6 @@ const uint64_t NODE_6 = 0xE8E8F0F0A6LL;
 
 void setup()
 {
-	//mesh.setNodeID(NODE_MASTER);
-	//mesh.begin(RADIO_CHANNEL, RF24_1MBPS);
 	Serial.begin(115200);
 
 	radio.begin();
@@ -76,21 +61,10 @@ void setup()
 	radio.enableDynamicPayloads();
 
 	radio.stopListening();
-
-	//radio.printDetails();
 }
 
 void loop()
 {
-	//mesh.update();
-	//mesh.DHCP();
-	//
-	//if (network.available())
-	//{
-	//RF24NetworkHeader header;
-	//network.peek(header);
-	//}
-
 	ReadKey();
 }
 
@@ -209,14 +183,6 @@ void TransmitPatternToAllLocations(byte patternId)
 	TransmitPatternToLocation(NODE_3, patternId);
 	TransmitPatternToLocation(NODE_4, patternId);
 	TransmitPatternToLocation(NODE_5, patternId);
-	//for (int i = 0; i < mesh.addrListTop; i++)
-	//{
-	//if (mesh.addrList[i].nodeID != 6)
-	//{
-	//RF24NetworkHeader header(mesh.addrList[i].address, OCT);
-	//network.write(header, &patternId, sizeof(patternId));
-	//}
-	//}
 }
 
 void TransmitStopToAllLocations()
@@ -227,19 +193,11 @@ void TransmitStopToAllLocations()
 	TransmitPatternToLocation(NODE_4, 0);
 	TransmitPatternToLocation(NODE_5, 0);
 	TransmitPatternToLocation(NODE_6, 0);
-	//byte patternId = 0;
-	//for (int i = 0; i < mesh.addrListTop; i++)
-	//{
-	//RF24NetworkHeader header(mesh.addrList[i].address, OCT);
-	//network.write(header, &patternId, sizeof(patternId));
-	//}
 }
 
 void TransmitPatternToWonderWheel(byte patternId)
 {
 	TransmitPatternToLocation(NODE_6, patternId);
-
-	//TransmitPatternToLocation(6, patternId);
 }
 
 void TransmitPatternToLocation(uint64_t nodeId, byte patternId)
@@ -262,14 +220,6 @@ void TransmitPatternToLocation(uint64_t nodeId, byte patternId)
 		PrintNodeId(nodeId);
 	}
 	Serial.println();
-	//for (int i = 0; i < mesh.addrListTop; i++)
-	//{
-	//if (mesh.addrList[i].nodeID == nodeId)
-	//{
-	//RF24NetworkHeader header(mesh.addrList[i].address, OCT);
-	//network.write(header, &patternId, sizeof(patternId));
-	//}
-	//}
 }
 
 void PrintNodeId(uint64_t nodeId)
