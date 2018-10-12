@@ -28,6 +28,7 @@ void Stop();
 void InitOn();
 void BottomScene();
 void TopScene();
+void TopSceneMeteor();
 void FadeBrightnessOfAllLedsOneStep(uint8_t numberOfLeds, boolean meteorRandomDecay, byte meteorTrailDecay);
 void DrawMeteor(int ledIndex, CRGB color, byte meteorSize, uint8_t numberOfLeds);
 

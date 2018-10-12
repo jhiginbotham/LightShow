@@ -74,9 +74,12 @@
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
       <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Mesh</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/EEPROM/src</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24/utility</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24Network</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24/utility</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24Mesh</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
@@ -115,9 +118,12 @@
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
       <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Mesh</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/EEPROM/src</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24/utility</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24Network</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24/utility</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24Mesh</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
@@ -158,7 +164,7 @@
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>../../../TestRadioController;C:/Program Files (x86)/Arduino/libraries/RF24;C:/Program Files (x86)/Arduino/libraries/RF24/utility;C:/Program Files (x86)/Arduino/libraries/RF24Network;C:/Program Files (x86)/Arduino/libraries;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Network;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Mesh;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24/utility;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/EEPROM/src;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>../../../TestRadioController;C:/Program Files (x86)/Arduino/libraries/RF24;C:/Program Files (x86)/Arduino/libraries/RF24/utility;C:/Program Files (x86)/Arduino/libraries/RF24Network;C:/Program Files (x86)/Arduino/libraries;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Network;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Mesh;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24/utility;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/EEPROM/src;C:/jhiginbotham_repo/LightShow/libraries/RF24Network;C:/jhiginbotham_repo/LightShow/libraries/RF24;C:/jhiginbotham_repo/LightShow/libraries/RF24/utility;C:/jhiginbotham_repo/LightShow/libraries/RF24Mesh;C:/jhiginbotham_repo/LightShow/libraries;</VMSETTING_IncludePaths>
     <VisualMicroSettings>
       <VisualMicroSettings>
         <arduino.upload.port>COM4</arduino.upload.port>
@@ -196,9 +202,12 @@
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
       <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Mesh</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/EEPROM/src</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24/utility</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24Network</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24/utility</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24Mesh</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
@@ -237,9 +246,12 @@
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
       <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Mesh</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/EEPROM/src</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24/utility</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24Network</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24/utility</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24Mesh</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
@@ -280,7 +292,7 @@
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>../../../TestRadioController;C:/Program Files (x86)/Arduino/libraries/RF24;C:/Program Files (x86)/Arduino/libraries/RF24/utility;C:/Program Files (x86)/Arduino/libraries/RF24Network;C:/Program Files (x86)/Arduino/libraries;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Network;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Mesh;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24/utility;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/EEPROM/src;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>../../../TestRadioController;C:/Program Files (x86)/Arduino/libraries/RF24;C:/Program Files (x86)/Arduino/libraries/RF24/utility;C:/Program Files (x86)/Arduino/libraries/RF24Network;C:/Program Files (x86)/Arduino/libraries;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Network;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Mesh;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24/utility;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/EEPROM/src;C:/jhiginbotham_repo/LightShow/libraries/RF24Network;C:/jhiginbotham_repo/LightShow/libraries/RF24;C:/jhiginbotham_repo/LightShow/libraries/RF24/utility;C:/jhiginbotham_repo/LightShow/libraries/RF24Mesh;C:/jhiginbotham_repo/LightShow/libraries;</VMSETTING_IncludePaths>
     <VisualMicroSettings>
       <VisualMicroSettings>
         <arduino.upload.port>COM4</arduino.upload.port>

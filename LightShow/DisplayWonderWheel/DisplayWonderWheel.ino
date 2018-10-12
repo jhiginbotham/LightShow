@@ -18,7 +18,7 @@
 #define LED_PIN_BOTTOM 3
 
 #define NUM_LEDS_TOP 210
-#define NUM_LEDS_BOTTOM 207
+#define NUM_LEDS_BOTTOM 210
 
 const uint64_t NODE_1 = 0xE8E8F0F0F1LL;
 const uint64_t NODE_2 = 0xE8E8F0F0E2LL;
@@ -104,6 +104,8 @@ void InitOn()
 	bottomStrip.RainbowWithGlitter();
 }
 
+
+
 void BottomScene()
 {
 	static byte initialHue = 0;
@@ -113,6 +115,14 @@ void BottomScene()
 }
 
 void TopScene()
+{
+	static byte initialHue = 0;
+	initialHue = initialHue + 2;
+	byte changeInHue = 255 / bottomStrip.NumberOfLeds();
+	bottomStrip.RainbowWithGlitter(initialHue, changeInHue);
+}
+
+void TopSceneMeteor()
 {
 	uint8_t numberOfLeds = topStrip.NumberOfLeds();
 	byte meteorSize = 75;
