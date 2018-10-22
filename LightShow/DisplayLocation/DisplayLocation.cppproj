@@ -70,12 +70,13 @@
     <ListValues>
       <Value>../../../DisplayLocation</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/LedStrip</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/FastLED</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/PaletteDefinitions</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/LedStrip</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/FastLED</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/PaletteDefinitions</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
@@ -110,12 +111,13 @@
     <ListValues>
       <Value>../../../DisplayLocation</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/LedStrip</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/FastLED</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/PaletteDefinitions</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/LedStrip</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/FastLED</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/PaletteDefinitions</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
@@ -154,7 +156,7 @@
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>../../../DisplayLocation;C:/Program Files (x86)/Arduino/libraries;//fps.availity.net/Users/Jason.Higinbotham/My Documents/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;C:/Program Files (x86)/Arduino/libraries/FastLED;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src;C:/Program Files (x86)/Arduino/libraries/RF24;C:/Program Files (x86)/Arduino/libraries/RF24Network;C:/Program Files (x86)/Arduino/libraries/RF24/utility;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries;C:/Program Files (x86)/Arduino/libraries/RF24Mesh;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/FastLED;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24/utility;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Network;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Mesh;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/EEPROM/src;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/LedStrip;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/PaletteDefinitions;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>../../../DisplayLocation;C:/Program Files (x86)/Arduino/libraries;//fps.availity.net/Users/Jason.Higinbotham/My Documents/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;C:/Program Files (x86)/Arduino/libraries/FastLED;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src;C:/Program Files (x86)/Arduino/libraries/RF24;C:/Program Files (x86)/Arduino/libraries/RF24Network;C:/Program Files (x86)/Arduino/libraries/RF24/utility;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries;C:/Program Files (x86)/Arduino/libraries/RF24Mesh;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/FastLED;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24/utility;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Network;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Mesh;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/EEPROM/src;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/LedStrip;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/PaletteDefinitions;C:/jhiginbotham_repo/LightShow/libraries/RF24;C:/jhiginbotham_repo/LightShow/libraries/RF24/utility;C:/jhiginbotham_repo/LightShow/libraries/LedStrip;C:/jhiginbotham_repo/LightShow/libraries/PaletteDefinitions;C:/jhiginbotham_repo/LightShow/libraries;C:/jhiginbotham_repo/LightShow/libraries/FastLED;</VMSETTING_IncludePaths>
     <VisualMicroSettings>
       <VisualMicroSettings>
         <arduino.upload.port>COM6</arduino.upload.port>
@@ -188,12 +190,13 @@
     <ListValues>
       <Value>../../../DisplayLocation</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/LedStrip</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/FastLED</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/PaletteDefinitions</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/LedStrip</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/FastLED</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/PaletteDefinitions</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
@@ -228,12 +231,13 @@
     <ListValues>
       <Value>../../../DisplayLocation</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/LedStrip</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/FastLED</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/PaletteDefinitions</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/LedStrip</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/FastLED</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/PaletteDefinitions</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
-      <Value>C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard</Value>
@@ -275,7 +279,7 @@
     <OutputFileName>DisplayLocation</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputType>Executable</OutputType>
-    <VMSETTING_IncludePaths>../../../DisplayLocation;C:/Program Files (x86)/Arduino/libraries;//fps.availity.net/Users/Jason.Higinbotham/My Documents/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;C:/Program Files (x86)/Arduino/libraries/FastLED;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src;C:/Program Files (x86)/Arduino/libraries/RF24;C:/Program Files (x86)/Arduino/libraries/RF24Network;C:/Program Files (x86)/Arduino/libraries/RF24/utility;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries;C:/Program Files (x86)/Arduino/libraries/RF24Mesh;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/FastLED;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24/utility;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Network;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Mesh;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/EEPROM/src;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/LedStrip;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/PaletteDefinitions;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>../../../DisplayLocation;C:/Program Files (x86)/Arduino/libraries;//fps.availity.net/Users/Jason.Higinbotham/My Documents/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/standard;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;C:/Program Files (x86)/Arduino/libraries/FastLED;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src;C:/Program Files (x86)/Arduino/libraries/RF24;C:/Program Files (x86)/Arduino/libraries/RF24Network;C:/Program Files (x86)/Arduino/libraries/RF24/utility;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries;C:/Program Files (x86)/Arduino/libraries/RF24Mesh;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/FastLED;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24/utility;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Network;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/RF24Mesh;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/EEPROM/src;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/LedStrip;C:/Users/jason.higinbotham/Documents/Atmel Studio/7.0/libraries/PaletteDefinitions;C:/jhiginbotham_repo/LightShow/libraries/RF24;C:/jhiginbotham_repo/LightShow/libraries/RF24/utility;C:/jhiginbotham_repo/LightShow/libraries/LedStrip;C:/jhiginbotham_repo/LightShow/libraries/PaletteDefinitions;C:/jhiginbotham_repo/LightShow/libraries;C:/jhiginbotham_repo/LightShow/libraries/FastLED;</VMSETTING_IncludePaths>
     <VisualMicroSettings>
       <VisualMicroSettings>
         <arduino.upload.port>COM6</arduino.upload.port>

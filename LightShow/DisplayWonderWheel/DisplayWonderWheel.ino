@@ -119,7 +119,7 @@ void TopScene()
 	static byte initialHue = 0;
 	initialHue = initialHue + 2;
 	byte changeInHue = 255 / bottomStrip.NumberOfLeds();
-	bottomStrip.RainbowWithGlitter(initialHue, changeInHue);
+	topStrip.RainbowWithGlitter(initialHue, changeInHue);
 }
 
 void TopSceneMeteor()
