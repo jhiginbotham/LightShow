@@ -118,7 +118,7 @@ void TopScene()
 {
 	static byte initialHue = 0;
 	initialHue = initialHue + 2;
-	byte changeInHue = 255 / bottomStrip.NumberOfLeds();
+	byte changeInHue = 255 / topStrip.NumberOfLeds();
 	topStrip.RainbowWithGlitter(initialHue, changeInHue);
 }
 

@@ -71,9 +71,10 @@
       <Value>../../../DisplayWonderWheel</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
       <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24</Value>
-      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24/utility</Value>
       <Value>C:/jhiginbotham_repo/LightShow/libraries/LedStrip</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/FastLED</Value>
       <Value>C:/jhiginbotham_repo/LightShow/libraries/PaletteDefinitions</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
       <Value>C:/jhiginbotham_repo/LightShow/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
@@ -111,9 +112,10 @@
       <Value>../../../DisplayWonderWheel</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
       <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24</Value>
-      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24/utility</Value>
       <Value>C:/jhiginbotham_repo/LightShow/libraries/LedStrip</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/FastLED</Value>
       <Value>C:/jhiginbotham_repo/LightShow/libraries/PaletteDefinitions</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
       <Value>C:/jhiginbotham_repo/LightShow/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
@@ -191,9 +193,10 @@
       <Value>../../../DisplayWonderWheel</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
       <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24</Value>
-      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24/utility</Value>
       <Value>C:/jhiginbotham_repo/LightShow/libraries/LedStrip</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/FastLED</Value>
       <Value>C:/jhiginbotham_repo/LightShow/libraries/PaletteDefinitions</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
       <Value>C:/jhiginbotham_repo/LightShow/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
@@ -231,9 +234,10 @@
       <Value>../../../DisplayWonderWheel</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
       <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24</Value>
-      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24/utility</Value>
       <Value>C:/jhiginbotham_repo/LightShow/libraries/LedStrip</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/FastLED</Value>
       <Value>C:/jhiginbotham_repo/LightShow/libraries/PaletteDefinitions</Value>
+      <Value>C:/jhiginbotham_repo/LightShow/libraries/RF24/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
       <Value>C:/jhiginbotham_repo/LightShow/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
